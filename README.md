@@ -14,5 +14,7 @@ Below is the demo video of the prototype of the solution. As it can be seen from
 
 Following is the DEMO video 
 
-https://user-images.githubusercontent.com/82326641/122657247-f01f6b80-d172-11eb-82cd-e1651f121c8a.mov
+
+
+https://user-images.githubusercontent.com/82326641/122657264-1fce7380-d173-11eb-900f-7cc9f54476aa.mov
 
