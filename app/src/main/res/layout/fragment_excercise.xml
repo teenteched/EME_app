@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExcerciseFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выберите истории, подходящие под картинки:"
+            android:textColor="#2D2D2E"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/exs1" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/editTextTextMultiLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+         A.	Amir is a student. He goes to school every day, he is a smart boy. Amir likes to read books and he is the best student in the class. \n\n
+         B.	They are friends. Ayana and Maria are engineers and Amir is a photographer. They try to meet every week.\n\n
+         C.	Ivan is a very kind and polite boy. He is from Russia, but now he lives in Kazakhstan. He has a lot of friends.\n\n
+         D.	Inju is a smart and beautiful girl. She is a student. Inju lives in a small city in Turkey and she often helps her mother."
+                    android:textColor="#2D2D2E"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

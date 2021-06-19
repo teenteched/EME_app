@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="English Course"
+                    android:textColor="#2D2D2E"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:text="Lesson1: Introduction"
+                    android:textColor="#2D2D2E"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/section1"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="#513F51B5"
+                    android:onClick="openSection"
+                    android:tag="1"
+                    android:text="How to improve \n your vocabulary"
+                    android:textColorLink="#03A9F4" />
+
+                <Button
+                    android:id="@+id/section2"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="#513F51B5"
+                    android:onClick="openSection"
+                    android:tag="2"
+                    android:text="Verb to be"
+                    android:textColorLink="#513F51B5" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="#513F51B5"
+                    android:onClick="openExcercise"
+                    android:text="Exercises" />
+
+                <Button
+                    android:id="@+id/section3"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="#513F51B5"
+                    android:onClick="openSection"
+                    android:tag="3"
+                    android:text="Regular and irregular verbs" />
+
+                <Button
+                    android:id="@+id/section4"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="#513F51B5"
+                    android:onClick="openSection"
+                    android:tag="4"
+                    android:text="Verb to be: Examples" />
+
+                <Button
+                    android:id="@+id/button6"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="#513F51B5"
+                    android:onClick="openVocab"
+                    android:text="Vocabulary" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="com.example.teenteched.VideoFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/video_fragment" />
+
+    </TableRow>
+
+</LinearLayout>
