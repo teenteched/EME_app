@@ -12,9 +12,17 @@ After completing all three subjects, children will have access to the final proj
 
 Below is the demo video of the prototype of the solution. As it can be seen from the video the English course contains the 15 lessons for different topics with the welcoming introductiory video. Each lesson designed in such a way that contains several topics, exercisez to practice and new vocabulary with hangouts. 
 
-Following is the DEMO video 
+Following is the DEMO video (Part 1)
 
 
 
-https://user-images.githubusercontent.com/82326641/122657264-1fce7380-d173-11eb-900f-7cc9f54476aa.mov
+https://user-images.githubusercontent.com/82326641/122657300-7a67cf80-d173-11eb-9193-c2c379c326c5.MOV
+
+DEMO video (Part 2)
+
+https://user-images.githubusercontent.com/82326641/122657305-7e93ed00-d173-11eb-8183-4e5a8fc68b5f.MOV
+
+DEMO video (Part 3)
+
+https://user-images.githubusercontent.com/82326641/122657309-82c00a80-d173-11eb-8231-82945a19cc61.MOV
 
